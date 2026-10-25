@@ -17,7 +17,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8080:8080 --name riserunning riserunning:latest'
+                sh 'docker run -d -p 8081:8080 --name riserunning riserunning:latest'
             }
         }
     }
